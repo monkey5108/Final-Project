@@ -1,0 +1,43 @@
+.footer-wrapper {
+  font-family: 'Nunito', sans-serif;
+
+}
+
+
+.footer-wrapper {   
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #3e3f42;
+  margin: -8px;
+  height: 75px;
+  align-content: center;
+}
+
+.footer-wrapper p {
+    color: white;
+    font-size: 20px;
+    border-block: 2px solid gray;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-wrapper p > .things {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.footer-bottom {
+  background-color: black;
+    color: #cbcbcb;
+    height: 142px;
+    margin-top: 10px;
+    width: 1920px;
+    margin-left: -8px;
+    margin-bottom: -18px;
+}
+.things {
+  font-weight: bolder;
+}
